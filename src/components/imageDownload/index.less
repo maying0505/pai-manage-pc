@@ -1,0 +1,51 @@
+.img_download_box{
+    margin: 10px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #eee;
+    .img_download_checkbox,.img_download_img{
+        width: 100px;
+        height: 100px;
+    }
+    .ant-checkbox{
+        z-index: 5;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    .img_download_img{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .img_download_mask{
+        top: 0;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: #333;
+        opacity: 0.5;
+        z-index: 1;
+    }
+    .img_download_eye{
+        width: 15px;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        cursor: pointer;
+        z-index: 2;
+    }
+}
+.img_download_title{
+    margin: 10px 0;
+    .img_download_title_tip{
+        height: 14px;
+        width: 5px;
+        display: inline-block;
+        background-color: #41BE9E;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+}
